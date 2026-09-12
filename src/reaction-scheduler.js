@@ -6,7 +6,7 @@ const POOLS = {
   SIDE_EYE: ['Sure.', 'That’s what we’re doing now?', 'Okay.', 'Noted.'],
   WINDOW_POLICE: ['PICK ONE.', 'WHY ARE WE SWITCHING?', 'Make up your mind.', 'Bro.', 'You’re just opening windows now.', 'What are you even doing?'],
   PRODUCTIVITY: ['You lasted {{duration}}.', 'Tutorial hell again?', 'You opened VS Code just to visit YouTube. Incredible.', 'Let me guess. “Research”?'],
-  CLINGY: ['hello?', 'Bro?', 'Are you alive?', 'Talk to me.', 'Wow. Abandoned.', 'Okay wow.', 'Was I talking to myself?'],
+  CLINGY: ['hello?', 'Bro?', 'Are you alive?', 'Talk to me.', 'Wow, am I being abandoned?', 'Okay, are you ignoring me?', 'Was I talking to myself?'],
   CHAOS: ['You’ve made this so much worse for yourself.', 'I was being nice.', 'Attention, please.', 'This is your fault.']
 };
 
@@ -36,4 +36,4 @@ class ReactionScheduler {
   checkResponseDelay() { if (!this.waiting) return null; const delay = Date.now() - this.waiting.promptTimestamp; if (delay < 15_000) return null; const priority = delay >= 60_000 ? 'HIGH' : 'MEDIUM'; return this.consider('LONG_RESPONSE_DELAY', priority, { duration: `${Math.floor(delay / 1000)} seconds` }); }
   debug() { const last = this.reactions.at(-1); return { ...this.metrics, waitingForUserResponse: Boolean(this.waiting), responseDelayMs: this.waiting ? Date.now() - this.waiting.promptTimestamp : 0, ignoredNudges: this.nudgeCount, ignoredNudgesUntil: this.ignoredNudgesUntil, reactionsLast5m: this.recent(300_000).length, reactionsLast15m: this.recent(900_000).length, globalCooldownRemainingMs: last ? Math.max(0, last.cooldownMs - (Date.now() - last.at)) : 0, chaosCooldownRemainingMs: this.state.snapshot().annoyance > 90 && last ? Math.max(0, 15_000 - (Date.now() - last.at)) : 0 }; }
 }
-module.exports = { ReactionScheduler };
+module.exports = { ReactionScheduler, POOLS };
