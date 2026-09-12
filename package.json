@@ -1,0 +1,21 @@
+{
+  "name": "homegirl",
+  "version": "0.1.0",
+  "description": "An affectionate desktop nuisance for macOS.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npm run build:helper && electron .",
+    "dev": "NODE_ENV=development npm run start",
+    "build:helper": "mkdir -p build /private/tmp/homegirl-swift-cache && CLANG_MODULE_CACHE_PATH=/private/tmp/homegirl-swift-cache swiftc native/HomeGirlActivityHelper.swift -o build/homegirl-activity-helper",
+    "extract:emotes": "node scripts/extract-emotes.js",
+    "test": "node --test test/*.test.js",
+    "typecheck": "node --check src/main.js && node --check src/preload.js && node --check src/renderer.js && node --check src/gemini-service.js && node --check src/homegirl-ai-context.js && node --check src/conversation-memory.js"
+  },
+  "devDependencies": {
+    "electron": "^37.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "dotenv": "^17.4.2"
+  }
+}
