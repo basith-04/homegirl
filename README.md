@@ -1,17 +1,16 @@
 <img width="1280" height="640" alt="git (1)" src="https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd" />
 
-# HomeGirl 🎯
+# HomeGirl.AI
 
 An affectionate, clingy, shamelessly annoying desktop companion for macOS. She watches what you do, judges your app-switching, gets offended when you ignore her, and can make the screen go black just to mess with you.
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: Varangians
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Abdul Basith P V
+- Member 2: Harijith T S
 
 ### Project Description
 HomeGirl is a translucent, always-on-top AI companion that lives on your desktop. She tracks your active apps on macOS, reacts to your work-and-slack-off habits, and talks back with real AI-generated personality — an extremely close friend who has absolutely no respect for your desire to be left alone.
