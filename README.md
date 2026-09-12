@@ -95,9 +95,8 @@ Electron main (src/main.js)
 ```
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Abdul Basith P V: Testing, Research and Development
+- Harijith T S: Design, Research and Development
 
 ---
 Made with ❤️ at TinkerHub Useless Projects
