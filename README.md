@@ -54,7 +54,7 @@ Place the HomeGirl persona in `HG.AI.md` at the repository root. Gemini reads th
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 
 ### HomeGirl on the Desktop
 
