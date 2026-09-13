@@ -113,27 +113,6 @@ Electron main (src/main.js)
 ```
 *Architecture showing how macOS activity events flow from the native Swift helper through Electron's activity and reaction systems.*
 
-For Hardware:
-
-# Schematic & Circuit
-Not applicable — HomeGirl.AI is a software-only project.
-
-![Circuit](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
-*No physical circuit is required for this project.*
-
-![Schematic](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
-*No hardware schematic is required for this software project.*
-
-# Build Photos
-![Components](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
-*Software project; no physical components are required.*
-
-![Build](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
-*Development and implementation are performed entirely in software.*
-
-![Final](https://github.com/user-attachments/assets/8920b256-2ba8-4988-b824-5351134eb4bd)
-*Final HomeGirl.AI desktop companion.*
-
 ### Project Demo
 # Video
 [Watch the HomeGirl.AI Demo](https://drive.google.com/file/d/1y7iaDPYheFC4-gxP_P68wGYIRi-0OiGd/view?usp=drivesdk)
@@ -141,7 +120,7 @@ Not applicable — HomeGirl.AI is a software-only project.
 - GitHub Repository: https://github.com/basith-04/homegirl.ai
 
 ## Team Contributions
-- Abdul Basith P V: Testing, Research and Development
+- Abdul Basith P V: Research and Development
 - Harijith T S: Design, Research and Development
 
 ---
