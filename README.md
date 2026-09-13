@@ -58,25 +58,30 @@ For Software:
 
 ### HomeGirl on the Desktop
 
-![HomeGirl Desktop Companion](IMAGE_1_URL)
+<img width="1470" height="953" alt="Screenshot 2026-09-13 at 9 37 36 AM" src="https://github.com/user-attachments/assets/98cc959e-5952-4244-ab00-ea5436367a53" />
+
 
 *HomeGirl hanging around on the desktop, waiting for an opportunity to cause problems.*
 
 ### Real-Time Window Detection
 
-![HomeGirl Window Detection](IMAGE_2_URL)
+<img width="1554" height="1012" alt="windowdetection" src="https://github.com/user-attachments/assets/79dd5dea-af37-4b7e-8fed-9fd57fdc7bed" />
+
 
 *HomeGirl detects the active application and reacts when you switch to WhatsApp instead of doing your work.*
 
 ### AI-Powered Annoyance
 
-![HomeGirl AI Reaction](IMAGE_3_URL)
+<img width="1460" height="953" alt="Screenshot 2026-09-13 at 8 54 33 AM" src="https://github.com/user-attachments/assets/c2caefc2-990d-4681-9e0e-65d700ed6420" />
+
 
 *HomeGirl generates an annoying response based on what you're doing and how you're treating her.*
 
 ### Chaos Mode
 
-![HomeGirl Chaos Mode](IMAGE_4_URL)
+<img width="1280" height="832" alt="locked" src="https://github.com/user-attachments/assets/cd504b62-aac1-4e89-a4ab-a47cfeae88f0" />
+
+
 
 *When ordinary nagging isn't enough, HomeGirl escalates to a fake screen-off prank.*
 
@@ -131,9 +136,7 @@ Not applicable — HomeGirl.AI is a software-only project.
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Demo video should demonstrate HomeGirl's desktop presence, app tracking, AI reactions, emotional state changes, and non-destructive chaos interactions.*
-
+[Watch the HomeGirl.AI Demo](https://drive.google.com/file/d/1y7iaDPYheFC4-gxP_P68wGYIRi-0OiGd/view?usp=drivesdk)
 # Additional Demos
 - GitHub Repository: https://github.com/basith-04/homegirl.ai
 
